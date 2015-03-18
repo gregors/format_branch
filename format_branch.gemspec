@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "format_branch"
   spec.version       = FormatBranch::VERSION
   spec.authors       = ["Gregory Ostermayr"]
-  spec.email         = ["greg@carbonfive.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["gregory.ostermayr@gmail.com"]
+  spec.summary       = %q{formats branches using pivotal stories}
+  spec.description   = %q{coming soon}
   spec.homepage      = ""
   spec.license       = "MIT"
 
