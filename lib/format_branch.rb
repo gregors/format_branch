@@ -1,5 +1,7 @@
-require "format_branch/version"
+require 'format_branch/version'
 
 module FormatBranch
-  # Your code goes here...
+  def self.format(text)
+    text.gsub(' ', '_')
+  end
 end
