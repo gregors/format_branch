@@ -1,7 +1,7 @@
-require 'test/unit'
+require 'minitest/autorun'
 require 'format_branch'
 
-class FormatBranchTest < Test::Unit::TestCase
+class FormatBranchTest < MiniTest::Test
   def test_spaces_to_underlines
     result = FormatBranch.format('add balloons to the scene')
     assert( result == 'add_balloons_to_the_scene',
